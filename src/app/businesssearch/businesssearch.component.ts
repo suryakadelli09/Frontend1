@@ -23,7 +23,7 @@ export class BusinesssearchComponent implements OnInit {
   categories: any[] = [];
   businessList: any[] = [];
   isTableVisible: boolean = false; // Table visibility flag
-  imageBaseUrl = 'https://localhost:7000/uploads/';
+  imageBaseUrl = 'https://reg-apis.onrender.com/uploads/';
 
   selectedCategory!: string;
   selectedSubCategory!: string;
