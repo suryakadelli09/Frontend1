@@ -6,8 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class BusinessService {
-  private apiUrl = 'https://localhost:7000/api/Business';
-  private cus_ApiUrl = 'https://localhost:7000/api/Customer';
+  private apiUrl = 'https://reg-apis.onrender.com/api/Business';
+  private cus_ApiUrl = 'https://reg-apis.onrender.com/api/Customer';
 
   // private apiUrl = 'https://greatbluepen79.conveyor.cloud/api/Business';
   // private cus_ApiUrl = 'https://greatbluepen79.conveyor.cloud/api/Customer';
